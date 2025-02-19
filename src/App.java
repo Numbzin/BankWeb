@@ -22,5 +22,12 @@ public class App {
         person.email = "nmb@gmail.com";
 
         account.number = "100001";
+        account.agency = agency;
+        account.person = person;
+        account.balance = 1000;
+
+        System.out.println("Agencia : " + account.agency.name);
+        System.out.println("Cliente : " + account.person.name);
+        System.out.println("Saldo : " + account.balance);
     }
 }
