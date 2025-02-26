@@ -1,8 +1,9 @@
-package Domain.model;
+package domain.model;
 
 public class Agency {
-    public String name;
-    public String number;
-    public String tel;
-    public String email;
+
+  public String name;
+  public String number;
+  public String tel;
+  public String email;
 }
